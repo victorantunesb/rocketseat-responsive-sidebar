@@ -1,0 +1,144 @@
+* {
+    margin: 0px;
+    box-sizing: border-box; 
+    font-family: Poppins;   
+    font-size: 15px;
+}
+
+body{   
+    height: 100vh;
+}
+
+.container-close {         /* barra lateral azul fechada */
+    width: 90px;
+    height: 100%;
+    background-color: #18C29C;
+    transition: width 0.5s;
+}
+
+ .sbar-close {            /* flex que separa logout das options */
+    padding-top: 26px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+    gap: 5vh;
+}
+
+
+.container-options-close {     /* container do flex das options side bar fechada */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+}
+
+.logout-btn-close {
+    display: flex;                 /* flex do botão de logout */ 
+    align-items: center;
+    justify-content: center;
+    background-color: #DCE4E3;
+    width: 100%;
+    height: 10%;
+} 
+
+.logout-icon {                    /* ícone de logout */          
+    margin-top: 5px;
+    margin-left: 40px;
+}
+
+.options-icon {                 /* tamanho ícone das options */
+    width: 1.5rem;
+}
+
+
+
+/* -------------------------------------Sidebar-Open----------------------------------------*/
+
+.container-open {
+    width: 230px;
+    height: 100%;
+    background-color: #18C29C;
+    transition: width 0.3s;
+}
+
+
+.sbar-open {
+    padding-top: 26px;
+    display: flex; 
+    flex-direction: column;
+    align-items: start;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.container-options-open {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5vh;
+    width: 100%;   
+}
+
+.options-text{
+    color: #084236;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-items: start;
+    margin-left:33px;
+}
+
+.open-menu {
+    display:flex;
+    flex-direction: row;
+    width: 100%;  
+}
+
+.search {
+    display:flex;
+    height: 45px;
+    align-items: center;
+    background-color: #8ED7C6;
+    border-radius: 7px;
+    margin-left: 20px;
+    padding-left: 11.5px;
+    padding-right: 98px;
+    gap: 3px;
+}
+
+
+.menu-icon {
+    margin-left: 90px;
+}
+
+.avatar-icon {
+    margin-left: 0px;
+}
+
+.logout-container {
+    display: flex;                /* flex do botão de logout */
+    flex-direction: row;
+    align-content: center;
+    justify-content: start;
+    align-items: center;
+    background-color: #DCE4E3;
+    width: 100%;
+    height: 10%;
+    gap: 7px;
+}
+
+.user-name {
+    font-size: 14px;
+    height: 40px;
+    padding-right: 0px;
+
+}
+
+.user-name > p {
+    font-size: 12px;
+}
